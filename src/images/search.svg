@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>nav-search-gold</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="navigation" transform="translate(-1156.000000, -900.000000)" stroke="#D6A156">
+            <g id="nav-search-gold" transform="translate(1156.000000, 900.000000)">
+                <g id="Group">
+                    <g stroke-width="2">
+                        <path d="M18,18 L27.8994949,27.8994949" id="Path-2-Copy-4" stroke-linecap="round"></path>
+                        <circle id="Oval-Copy-4" cx="11" cy="11" r="10"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
