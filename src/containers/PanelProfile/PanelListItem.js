@@ -1,18 +1,21 @@
-import styled from 'styled-componenets';
+import styled from 'styled-components';
 import React from 'react';
 
-let PanelListItem;
+const Div = styled.div`
+   margin: 20px auto 60px;
+`;
 
-export default ({title}) => {
-	PanelListItem = styled.div`
-	  content: ${title};
-	`;
+const ItemContainer = styled.div`
+	display: block;
+	margin: 0 auto;
+`;
 
+export default ({item}) => {
 	return (
-		<div>
-		  <div>
-			{PanelListItem}
-		  </div>
-	    </div>
+		<Div>
+		  <ItemContainer>
+			{item}
+		  </ItemContainer>
+	    </Div>
 	);
 }

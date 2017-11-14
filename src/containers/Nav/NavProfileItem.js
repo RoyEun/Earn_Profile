@@ -11,7 +11,7 @@ const NavProfileItem = styled.div`
 
 const Img = styled.img`
   
-  &:after {
+  after: {
   	padding-right: 10px;
   }
 

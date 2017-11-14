@@ -1,10 +1,25 @@
 import React from 'react';
-import PanelList from './PanelList'
+import PanelList from './PanelList';
+import styled from 'styled-components';
 
-const PanelContainer = (props) => {
+const Div = styled.div`
+   margin: 60px auto;
+   padding: 0 24px;
+   max-width: none;
+`;
+
+const PanelDiv = styled.div`
+  display: table-cell;
+  vertical-align: middle;
+  padding: 40px 0;
+`;
+
+const PanelProfile = (props) => {
   return (
-  	<PanelList />
+  	  <PanelDiv>
+  	    <PanelList />
+  	  </PanelDiv>  	
   );
 };
 
-export default PanelContainer;
+export default PanelProfile;

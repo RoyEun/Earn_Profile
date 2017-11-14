@@ -3,18 +3,16 @@ import styled from 'styled-components';
 import logo from '../../images/logo.svg';
 
 import NavProfile from './NavProfile.js';
-import MainProfile from '../MainProfile';
-
 
 const Navbar = styled.div`
   background: #fff;
   bottom-border: black;
   position: fixed;
   top: 0px;
-  height: 60px;
+  height: 70px;
   width: 100%;
-  padding: 0 24px;
-  margin-top: 6px;
+  padding: 0 15px;
+  z-index: 2;
 `;
 
 const NavBarLogo = styled.a`
@@ -32,19 +30,16 @@ const Img = styled.img`
   position: absolute;
   width: 60px;
   height: 60px;
-  margin: auto;
+  margin: 2.5px auto;
 `;
 
 const NavMenu = styled.ul`
   max-width: 1136px;
-  padding: 0 100px;
   margin: auto;
   list-style: none;
   left: 0;
   right: 0;
   bottom: 0;
-  display: inline-block;
-  vertical-align: middle;
 `;
 
 const MenuItemContainer = styled.a`
@@ -78,7 +73,7 @@ const NavMenuRight = styled.div`
   top: 0;
   right: 0;
   bottom: 0;
-  z-index: 1;
+  z-index: 2;
   text-align: right;
 `;
 
