@@ -2,19 +2,33 @@ import styled from 'styled-components';
 import React from 'react';
 
 const Div = styled.div`
-   margin: 20px auto 60px;
+   position: relative;
+   margin: 18px 0;
+   color: #000;
 `;
 
-const ItemContainer = styled.div`
-	display: block;
-	margin: 0 auto;
+const ItemContainer = styled.a`
+  display: table;
+  table-layout: fixed;
+`;
+
+const SpaceBox = styled.div`
+  vertical-align: middle;
+`;
+
+const ItemBox = styled.div`
+  display: table-cell;
+  vertical-align: middle;
 `;
 
 export default ({item}) => {
 	return (
 		<Div>
 		  <ItemContainer>
-			{item}
+		    <SpaceBox />
+		    <ItemBox>
+			  {item}
+			</ItemBox>
 		  </ItemContainer>
 	    </Div>
 	);

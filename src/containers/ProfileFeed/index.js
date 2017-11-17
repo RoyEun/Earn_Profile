@@ -7,9 +7,7 @@ import PublicProfileCard from './PublicProfileCard';
 import YourPricesCard from './YourPricesCard';
 
 const ProfileFeedDiv = styled.div`
-  margin: 60px auto;
-  padding: 0 24px;
-  max-width: 571px;
+
 `;
 
 const ProfileFeed = (props) => {
@@ -19,6 +17,11 @@ const ProfileFeed = (props) => {
       <ProfileCard />
       <AboutYouCard />
       <PublicProfileCard />
+      <YourPricesCard />
+      <YourPricesCard />
+      <YourPricesCard />
+      <YourPricesCard />
+      <YourPricesCard />
       <YourPricesCard />
     </ProfileFeedDiv>
   );
